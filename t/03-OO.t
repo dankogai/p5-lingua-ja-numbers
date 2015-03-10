@@ -1,6 +1,6 @@
 ﻿#!/usr/local/bin/perl
 #
-# $Id: 03-OO.t,v 0.2 2006/06/10 16:10:39 dankogai Exp dankogai $
+# $Id: 03-OO.t,v 0.2 2006/06/10 16:10:39 dankogai Exp $
 #
 use strict;
 use utf8;

@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use utf8;
 
-our $VERSION = sprintf "%d.%02d", q$Revision: 0.4 $ =~ /(\d+)/g;
+our $VERSION = sprintf "%d.%02d", q$Revision: 0.5 $ =~ /(\d+)/g;
 require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw(
@@ -445,7 +445,7 @@ Lingua::JA::Numbers - Converts numeric values into their Japanese string equival
 
 =head1 VERSION
 
-$Revision: 0.4 $ $Date: 2006/06/10 16:10:39 $
+$Revision: 0.5 $ $Date: 2015/03/10 11:04:45 $
 
 =head1 SYNOPSIS
 
