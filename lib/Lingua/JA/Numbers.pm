@@ -354,7 +354,8 @@ our $RE_Fix_Kana = join("|", keys  %RE_Fix_Kana);
 sub ja2num{
     no warnings 'uninitialized';
     my ($ja, $opt) = @_;
-    {   # dirty hack;
+    # https://twitter.com/Nyaboo/status/575196780993761280
+    if ($ja !~ /[+\-\.\deE]/) {
         no warnings 'numeric';
         my $num = $ja + 0;
         return $num if $num;

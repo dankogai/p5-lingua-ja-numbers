@@ -4,6 +4,12 @@
 #
 $Revision: 0.4 $ $Date: 2006/06/10 16:10:39 $
 ! lib/Lingua/JA/Numbers.pm
++ t/05-Kanji.t
+  1億 is now 100_000_000, not 1
+  https://twitter.com/Nyaboo/status/575196780993761280
+
+0.4 2006/06/10 16:10:39
+! lib/Lingua/JA/Numbers.pm
 ! t/03-OO.t
 + t/Bullock.t
   Lots of bug fixes and suggestions by Ben Bullock

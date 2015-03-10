@@ -8,4 +8,5 @@ t/01-RoundTrip.t
 t/02-Manman.t
 t/03-OO.t
 t/04-LJN.t
+t/05-KANJI.t
 META.yml                                 Module meta-data (added by MakeMaker)
